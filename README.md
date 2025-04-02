@@ -72,6 +72,7 @@ var winMtds = L.control.window(map)
 | close()         | undefined  |  Hide and remove window.        |
 | enableBtn()         | undefined  |  Enables the OK button of the window (default).       |
 | disableBtn()         | undefined  |  Disables the OK button of the window.        |
+| isHidden() | boolean | If the window is currently hidden |
 
 ### Other options
 | Property        | Description            | Default Value | Possible  values                                     |
@@ -86,6 +87,7 @@ var winMtds = L.control.window(map)
 | prompt.buttonOK | Text for ```OK``` button.     |  'OK'        | String                       |
 | prompt.buttonCancel | Text for ```Cancel``` button         |  button hidden by default        | String   |
 | visible | Render window immediately.         |  false         | Boolean   |
+| closeOnClickOutside | Closes the window on a click outside of its bounds | false | Boolean |
 
 ### Other  Methods
 | Method          | Returns       | Description                                     |
